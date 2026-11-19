@@ -1,0 +1,207 @@
+OK   [IV-A] accuracy Noise DNN-unw: stated 0.665, data 0.6649
+OK   [IV-A] accuracy MaskNet: stated 0.664, data 0.6638
+OK   [IV-A] accuracy MICE: stated 0.657, data 0.6574
+OK   [IV-A] accuracy ReMasker: stated 0.656, data 0.6555
+OK   [IV-A] accuracy MissForest: stated 0.651, data 0.6505
+OK   [IV-A] accuracy MIDAS-DAE: stated 0.65, data 0.6497
+OK   [IV-A] accuracy kNN: stated 0.638, data 0.638
+OK   [IV-A] accuracy Mode: stated 0.62, data 0.6202
+OK   [IV-A] accuracy GAIN: stated 0.595, data 0.5949
+OK   [IV-A] accuracy Noise DNN: stated 0.554, data 0.5535
+OK   [IV-A] accuracy DAE-complete: stated 0.533, data 0.5326
+OK   [IV-A] accuracy DAE-complete-unw: stated 0.68, data 0.6803
+OK   [IV-A] accuracy MaskNet-S: stated 0.604, data 0.6039
+OK   [IV-A] rank Noise DNN-unw: stated 2.5, data 2.5
+OK   [IV-A] rank MaskNet: stated 3.1, data 3.0833
+OK   [IV-A/Abstract] MaskNet - NDNN-unw mean (pts): stated -0.11, data -0.1106
+OK   [IV-A] MaskNet - NDNN-unw median (pts, abs): stated 0.14, data 0.1363
+OK   [IV-A] NDNN-unw wins over MaskNet: stated 33, data 33
+OK   [IV-A] NDNN-unw losses to MaskNet: stated 13, data 13
+OK   [IV-A] MaskNet gain over MICE (pts): stated 0.6, data 0.6402
+OK   [IV-A] MaskNet gain over ReMasker (pts): stated 0.8, data 0.8274
+OK   [IV-A] MaskNet gain over MissForest (pts): stated 1.3, data 1.326
+OK   [IV-A] MaskNet gain over MIDAS-DAE (pts): stated 1.4, data 1.4055
+OK   [IV-A] MaskNet gain over kNN (pts): stated 2.6, data 2.579
+OK   [IV-A] MaskNet gain over Mode (pts): stated 4.4, data 4.3553
+OK   [IV-A] MICE wins/losses: stated (36, 15), data (36, 15)
+OK   [IV-A] ReMasker wins/losses: stated (49, 4), data (49, 4)
+OK   [IV-A] DAE-c-unw median diff (pts, abs): stated 0.4, data 0.3855
+OK   [IV-A] time MaskNet: stated 5.4, data 5.3559
+OK   [IV-A] time MICE: stated 7.7, data 7.685
+OK   [IV-A] time kNN: stated 8.0, data 8.0384
+OK   [IV-A] time MIDAS-DAE: stated 7.5, data 7.4678
+OK   [IV-A] time Noise DNN (lo): stated 10.8, data 10.8482
+OK   [IV-A] time Noise DNN (hi): stated 11.0, data 10.9652
+OK   [IV-A] time ReMasker: stated 259, data 258.6443
+OK   [IV-A/Abstract] ReMasker/MaskNet time ratio: stated 48, data 48.2913
+OK   [Abstract] NDNN-unw/MaskNet time ratio ('half'): stated 2.0, data 2.0255
+OK   [IV-A] bal acc weighted lo: stated 0.488, data 0.488
+OK   [IV-A] bal acc weighted hi: stated 0.498, data 0.4981
+OK   [IV-A] bal acc MaskNet: stated 0.43, data 0.4297
+OK   [IV-A] macro-F1 Noise DNN: stated 0.418, data 0.4183
+OK   [IV-A] macro-F1 DAE-complete-unw: stated 0.411, data 0.4106
+OK   [IV-A] macro-F1 MICE: stated 0.407, data 0.4066
+OK   [IV-A] macro-F1 MaskNet: stated 0.395, data 0.3947
+OK   [IV-A] F1 MaskNet-MICE (pts): stated -1.2, data -1.1933
+OK   [IV-A] F1 MaskNet-MIDAS (pts): stated -0.8, data -0.7738
+OK   [IV-A] F1 MaskNet-NDNNu (pts): stated 0.8, data 0.8468
+OK   [IV-A] weighting cost lo (pts): stated 11, data 11.1361
+OK   [IV-A] weighting cost hi (pts): stated 15, data 14.7689
+OK   [IV-A] TVD mode: stated 0.38, data 0.3798
+OK   [IV-A] TVD argmax lo: stated 0.171, data 0.1711
+OK   [IV-A] TVD argmax hi: stated 0.272, data 0.2716
+OK   [IV-A] TVD MaskNet-S: stated 0.117, data 0.1171
+OK   [IV-A] TVD MICE-S: stated 0.11, data 0.11
+OK   [IV-A] MICE-S lowest TVD: stated MICE-S, data MICE-S
+OK   [IV-A] coef MaskNet-S: stated 0.292, data 0.2919
+OK   [IV-A] coef MissForest: stated 0.327, data 0.3271
+OK   [IV-A] coef kNN: stated 0.335, data 0.3345
+OK   [IV-A] coef MICE-S: stated 0.344, data 0.344
+OK   [IV-A] coef ReMasker: stated 0.353, data 0.3527
+OK   [IV-A] coef MaskNet: stated 0.356, data 0.3562
+OK   [IV-A] coef Mode: stated 0.356, data 0.356
+OK   [IV-A] coef MICE: stated 0.563, data 0.5626
+OK   [IV-A] MICE coef at 50%: stated 0.995, data 0.9947
+OK   [IV-A] lowest coef: stated MaskNet-S, data MaskNet-S
+OK   [IV-A] highest coef: stated MICE, data MICE
+OK   [IV-A] p54 MaskNet vs NDNN-unw (Holm): stated 0.017, data 0.0169
+OK   [Response] p54 MICE (Holm): stated 0.001, data 0.0014
+OK   [IV-C] B-MNAR best incomplete-data method: stated MIDAS-DAE, data MIDAS-DAE
+OK   [IV-C] B-MNAR MIDAS acc: stated 0.607, data 0.6068
+OK   [IV-C] B-MNAR DAE-cu advantage (pts): stated 6.7, data 6.693
+OK   [IV-C] D-MNAR best incomplete-data method: stated MIDAS-DAE, data MIDAS-DAE
+OK   [IV-C] D-MNAR MIDAS acc: stated 0.594, data 0.5938
+OK   [IV-C] D-MNAR DAE-cu advantage (pts): stated 5.6, data 5.6366
+OK   [IV-C] brfss-MCAR |MaskNet-NDNNu| <= 0.4: stated True, data True
+OK   [IV-C] brfss-MCAR best incomplete is MaskNet or NDNNu: stated True, data True
+OK   [IV-C] brfss-MAR |MaskNet-NDNNu| <= 0.4: stated True, data True
+OK   [IV-C] brfss-MAR best incomplete is MaskNet or NDNNu: stated True, data True
+OK   [IV-C] diabetes-MCAR |MaskNet-NDNNu| <= 0.4: stated True, data True
+OK   [IV-C] diabetes-MCAR best incomplete is MaskNet or NDNNu: stated True, data True
+OK   [IV-C] diabetes-MAR |MaskNet-NDNNu| <= 0.4: stated True, data True
+OK   [IV-C] diabetes-MAR best incomplete is MaskNet or NDNNu: stated True, data True
+OK   [IV-C] DAE-cu less accurate than MaskNet MCAR/MAR lo: stated 0.6, data 0.6081
+OK   [IV-C] DAE-cu less accurate than MaskNet MCAR/MAR hi: stated 1.1, data 1.0776
+OK   [IV-C] MCAR drop 10->50 MaskNet: stated 2.7, data 2.748
+OK   [IV-C] MCAR drop 10->50 MICE: stated 5.0, data 4.9914
+OK   [IV-C] MCAR drop 10->50 MissForest: stated 4.0, data 3.9933
+OK   [IV-C] brfss wins: stated 10, data 10
+OK   [IV-C] brfss losses: stated 12, data 12
+OK   [IV-C] brfss mean diff (pts): stated -0.01, data -0.0054
+OK   [IV-C] diabetes wins: stated 3, data 3
+OK   [IV-C] diabetes losses: stated 21, data 21
+OK   [IV-C] diabetes mean diff (pts): stated -0.22, data -0.2159
+OK   [IV-C] diabetes decided settings: stated 24, data 24
+OK   [IV-C] largest per-cell NDNNu advantage (pts): stated 0.9, data 0.856
+OK   [IV-C] largest cell is diabetes low-rate MAR/MNAR: stated True, data True
+OK   [IV-C] 50% mean diff (pts): stated 0.17, data 0.1667
+OK   [IV-C] 50% wins/losses: stated (7, 8), data (7, 8)
+OK   [IV-D/Abstract] weighted NDNN - DAE-c lo: stated 0.6, data 0.559
+OK   [IV-D/Abstract] weighted NDNN - DAE-c hi: stated 4.8, data 4.7622
+OK   [IV-D] BRFSS range hi: stated 1.7, data 1.6596
+OK   [IV-D] Diabetes 50%: stated 0.6, data 0.6147
+OK   [IV-D] unweighted NDNN - DAE-cu lo: stated 0.3, data 0.2893
+OK   [IV-D] unweighted NDNN - DAE-cu hi: stated 2.1, data 2.0563
+OK   [IV-D] weight removal gain (pts): stated 11.1, data 11.1361
+OK   [IV-D] brfss vars where weighted NDNN < mode: stated 11, data 11
+OK   [IV-D] brfss MaskNet mean gain over mode: stated 3.6, data 3.6377
+OK   [IV-D] brfss worst MaskNet loss vs mode: stated 1.4, data 1.41
+OK   [IV-D] diabetes vars where weighted NDNN < mode: stated 17, data 17
+OK   [IV-D] diabetes MaskNet mean gain over mode: stated 5.5, data 5.4633
+OK   [IV-D] diabetes worst MaskNet loss (readmitted): stated 4.3, data 4.29
+OK   [IV-D] readmitted is the worst: stated readmitted, data readmitted
+OK   [IV-D] diabetes second-worst loss (race): stated 1.7, data 1.65
+OK   [IV-D] second-worst is race: stated race, data race
+OK   [IV-D] brfss per-variable MaskNet acc matches summary: stated True, data True
+OK   [IV-D] diabetes per-variable MaskNet acc matches summary: stated True, data True
+OK   [IV-E] ablation no re-masking (pts): stated -3.4, data -3.4338
+OK   [IV-E] ablation class weighting (pts): stated -12.8, data -12.7723
+OK   [IV-E] ablation no re-masking + class weighting (pts): stated -4.9, data -4.8841
+OK   [IV-E] ablation small (64-64) (pts): stated -0.6, data -0.6022
+OK   [IV-E] ablation loss on re-masked + visible (pts): stated -1.0, data -1.013
+OK   [IV-E] ablation fixed r = 0.5 (pts): stated 0.02, data 0.0191
+OK   [IV-E] fixed r p-value: stated 0.8, data 0.7987
+OK   [IV-E] loss-on-visible p < 0.001: stated True, data True
+OK   [IV-E] other ratio ranges cost lo: stated 0.1, data 0.1373
+OK   [IV-E] other ratio ranges cost hi: stated 0.2, data 0.1882
+OK   [IV-E/V-B] weighting cost without re-masking (pts): stated 1.5, data 1.4503
+OK   [IV-E] acc no-remask+cw: stated 0.61, data 0.6097
+OK   [IV-E] MNAR acc without indicators: stated 0.595, data 0.5948
+OK   [IV-E] MNAR acc with indicators: stated 0.594, data 0.5937
+OK   [IV-E] time full: stated 5.5, data 5.4634
+OK   [IV-E] time small: stated 1.9, data 1.8753
+OK   [IV-E] ReMasker gap at 30% (pts): stated 0.9, data 0.8563
+OK   [V-C] MIDAS gap (pts): stated 1.4, data 1.4055
+OK   [V-C] re-masking gain (pts): stated 3.4, data 3.4338
+OK   [IV-F] draw SD acc (pts): stated 0.2, data 0.2148
+OK   [IV-F] draw SD acc max (pts): stated 0.6, data 0.6306
+OK   [IV-F] draw SD tvd: stated 0.002, data 0.0019
+OK   [IV-F] draw SD coef: stated 0.029, data 0.0285
+OK   [IV-F] draw SD coef max: stated 0.056, data 0.0564
+OK   [IV-F] MCAR TVD MaskNet: stated 0.138, data 0.1382
+OK   [IV-F] MCAR TVD MaskNet-S: stated 0.032, data 0.0316
+OK   [IV-F] MCAR acc cost (pts): stated 7.4, data 7.4229
+OK   [IV-F] MAR TVD MaskNet: stated 0.13, data 0.1298
+OK   [IV-F] MAR TVD MaskNet-S: stated 0.036, data 0.036
+OK   [IV-F] MAR acc cost (pts): stated 7.2, data 7.1521
+OK   [IV-F] MNAR TVD MaskNet: stated 0.333, data 0.3329
+OK   [IV-F] MNAR TVD MaskNet-S: stated 0.284, data 0.2837
+OK   [IV-F] MNAR acc cost (pts): stated 3.4, data 3.3832
+OK   [IV-F] coef benefit 10%: stated 0.014, data 0.014
+OK   [IV-F] coef benefit 50%: stated 0.123, data 0.1233
+OK   [IV-F] MAR coef MaskNet-S: stated 0.284, data 0.2842
+OK   [IV-F] MAR coef MaskNet: stated 0.438, data 0.4381
+OK   [IV-G] MaskNet gain 1k->20k MCAR (pts): stated 2.2, data 2.2053
+OK   [IV-G/Abstract] 1k MaskNet - NDNNu MCAR (pts): stated 0.8, data 0.8464
+OK   [IV-G] 1k best method MCAR: stated MaskNet, data MaskNet
+OK   [IV-G/Abstract] 1k MaskNet - NDNNu MNAR (pts): stated 2.1, data 2.0667
+OK   [IV-G] 1k best method MNAR: stated MaskNet, data MaskNet
+OK   [IV-G] 20k MaskNet MCAR: stated 0.706, data 0.706
+OK   [IV-G] 20k NDNNu MCAR: stated 0.706, data 0.7059
+OK   [IV-G] MissForest 1k MCAR: stated 0.676, data 0.6757
+OK   [IV-G] MissForest 20k MCAR: stated 0.685, data 0.6849
+OK   [IV-G] MICE gain 1k->20k (pts): stated 3.3, data 3.2624
+OK   [IV-G] MaskNet time n=1000: stated 1.2, data 1.1518
+OK   [IV-G] MaskNet time n=5000: stated 5.3, data 5.3226
+OK   [IV-G] MaskNet time n=20000: stated 21.7, data 21.7463
+OK   [V-E] MaskNet time at 20k ('22 s'): stated 22, data 21.7463
+OK   [IV-G] NDNNu/MaskNet time ratio n=1000 ('about half'): stated 2.0, data 2.3099
+OK   [IV-G] NDNNu/MaskNet time ratio n=5000 ('about half'): stated 2.0, data 2.0537
+OK   [IV-G] NDNNu/MaskNet time ratio n=20000 ('about half'): stated 2.0, data 2.0448
+OK   [V-D] GAIN TVD 0.1: stated 0.172, data 0.1719
+OK   [V-D] GAIN TVD 0.3: stated 0.276, data 0.2756
+OK   [V-D] GAIN TVD 0.5: stated 0.329, data 0.3294
+OK   [V-D] MICE coef 10%: stated 0.189, data 0.1894
+OK   [V-D] MICE-S coef 50%: stated 0.49, data 0.49
+OK   [V-D] MICE-S accuracy cost (pts): stated 5.1, data 5.1443
+OK   [V-B] TVD weighted lo: stated 0.24, data 0.24
+OK   [V-B] TVD weighted hi: stated 0.27, data 0.2716
+OK   [V-B] TVD unweighted lo: stated 0.2, data 0.2003
+OK   [V-B] TVD unweighted hi: stated 0.21, data 0.2131
+OK   [V-E] MNAR drop range lo (most methods): stated 8, data 7.9225
+OK   [V-E] MNAR drop range hi (most methods): stated 11, data 11.0443
+OK   [IV-B] seed SD approx 2 pts: stated 2, data 2.2531
+OK   [III-C] ReMasker conv: BRFSS 40->80 change <= 0.1: stated True, data True
+OK   [IV-A] p18 NDNN-unw: stated 0.18, data 0.1795
+OK   [IV-A] p18 MICE: stated 0.081, data 0.0805
+OK   [IV-A] p DAE-cu: stated 0.47, data 0.4669
+OK   [Abstract] MissForest p54 < 0.001: stated True, data True
+OK   [IV-A] MissForest also significant over 18 configurations: stated True, data True
+OK   [Abstract] kNN p54 < 0.001: stated True, data True
+OK   [IV-A] kNN also significant over 18 configurations: stated True, data True
+OK   [Abstract] GAIN p54 < 0.001: stated True, data True
+OK   [IV-A] GAIN also significant over 18 configurations: stated True, data True
+OK   [Abstract] MIDAS-DAE p54 < 0.001: stated True, data True
+OK   [IV-A] MIDAS-DAE also significant over 18 configurations: stated True, data True
+OK   [Abstract] ReMasker p54 < 0.001: stated True, data True
+OK   [IV-A] ReMasker also significant over 18 configurations: stated True, data True
+OK   [Abstract] Mode p54 < 0.001: stated True, data True
+OK   [IV-A] Mode also significant over 18 configurations: stated True, data True
+OK   [IV-A] CI NDNNu lo: stated -0.26, data -0.2632
+OK   [IV-A] CI NDNNu hi: stated 0.05, data 0.0526
+OK   [Response] CI ReMasker: stated (0.64, 1.02), data (0.64, 1.02)
+OK   [Response] MICE mean diff (pts): stated 0.64, data 0.6402
+OK   [Response] ReMasker mean diff (pts): stated 0.83, data 0.8274
+OK   [IV-B] r_rb >= 0.55 for competitors other than NDNNu/MICE: stated True, data True
+
+205 claims checked, 0 mismatches

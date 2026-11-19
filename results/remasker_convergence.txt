@@ -1,0 +1,5 @@
+diabetes 10 acc 0.660 t 74
+diabetes 20 acc 0.678 t 151
+diabetes 40 acc 0.686 t 298
+diabetes 60 acc 0.689 t 445
+brfss 10 0.683 / 20 0.690 / 40 0.695 / 60 0.694 / 80 0.696 (MCAR 30%, seed 0)
