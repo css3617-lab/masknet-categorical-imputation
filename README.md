@@ -2,9 +2,9 @@
 
 Code, data and results for the paper
 
-> S. Cho, Y. Lee, and C. W. Nam, "Neural Imputation of Categorical Medical Data Trained on Incomplete Records: A Reassessment and a Shared Masked Network" (under review).
+> S. Cho, Y. Lee, and C. W. Nam, "Neural Imputation of Categorical Medical Data Trained on Incomplete Records: Class Weighting, Per-Variable Networks, and a Shared Masked Network" (under review).
 
-The repository reproduces every table and figure of the paper: an inductive benchmark of 14 imputation methods on two public medical datasets under MCAR, MAR and MNAR missingness at 10%, 30% and 50% (54 settings), plus an ablation study and a training-size analysis.
+The repository reproduces every table and figure of the paper: a controlled comparison of loss weighting, per-variable versus shared architectures, and training on incomplete versus complete records, in an inductive benchmark of 14 imputation methods on two public medical datasets under MCAR, MAR and MNAR missingness at 10%, 30% and 50% (54 settings), plus an ablation study and a training-size analysis.
 
 ## Contents
 
@@ -19,7 +19,7 @@ code/
   run_benchmark.py   runs the main benchmark, the ablation and the training-size analysis
   analyze.py         statistics (Wilcoxon + Holm, cluster bootstrap CIs, rank-biserial r) and figures
   make_tables.py     LaTeX tables of the paper
-  verify_claims.py   recomputes every number quoted in the paper's text from the raw results
+  verify_claims.py   recomputes every number quoted in the paper's text (209 numbers) from the raw results
   vm_remasker.py, cloud_remasker.py, merge_remasker.py
                      helpers used to split the ReMasker runs over two machines (see below)
 data/
@@ -29,7 +29,7 @@ results/
   main/              one JSON file per setting (dataset_mechanism_rate_seed_ntrain.json)
   ablation/, size/   the same for the ablation study and the training-size analysis
   summary.json       aggregated results used for the tables
-  verify_claims_output.txt   205 numbers of the paper checked against the raw results
+  verify_claims_output.txt   209 numbers of the paper checked against the raw results
 figures/             Figures 2-4 of the paper
 ```
 

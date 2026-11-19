@@ -101,7 +101,7 @@ Method & B-MCAR & B-MAR & B-MNAR & D-MCAR & D-MAR & D-MNAR\\
 \end{table*}
 """)
 
-# ---------------------------------------------------------------- Table: reassessment (MCAR)
+# ---------------------------------------------------------------- Table: 2x2 design (MCAR)
 rows = []
 for key in ["brfss|0.1", "brfss|0.3", "brfss|0.5", "diabetes|0.1", "diabetes|0.3", "diabetes|0.5"]:
     v = S["table4"][key]
@@ -109,7 +109,7 @@ for key in ["brfss|0.1", "brfss|0.3", "brfss|0.5", "diabetes|0.1", "diabetes|0.3
     rows.append(f"{'B' if ds == 'brfss' else 'D'} & {int(float(r)*100)} & {f3(v['DAEc_acc'])} & {f3(v['NDNN_acc'])} & {f3(v['DAEc_f1'])} & {f3(v['NDNN_f1'])} & "
                 f"\\textcolor{{blue}}{{{f3(v['DAEcu_acc'])}}} & {f3(v['NDNNu_acc'])} & {f3(v['MaskNet_acc'])}\\\\")
 w("tab_reassess", r"""\begin{table}[!t]
-\caption{Re-run of the preliminary comparison under MCAR. B, BRFSS; D, Diabetes 130-US; rate in \%. DAE-c, class-weighted DAE trained on complete data; NDNN, class-weighted Noise DNN; \rev{DAE-cu, unweighted DAE trained on complete data;} NDNN-u, unweighted Noise DNN; F1, macro-F1.}\label{tab:reassess}
+\caption{\rev{Per-variable network trained on incomplete data (NDNN) versus DAE trained on complete data (DAE-c), with and without class weighting, under MCAR.} B, BRFSS; D, Diabetes 130-US; rate in \%. DAE-c, class-weighted DAE trained on complete data; NDNN, class-weighted Noise DNN; \rev{DAE-cu, unweighted DAE trained on complete data;} NDNN-u, unweighted Noise DNN; F1, macro-F1.}\label{tab:reassess}
 \centering\scriptsize\setlength{\tabcolsep}{3pt}
 \begin{tabular}{@{}llccccccc@{}}
 \toprule

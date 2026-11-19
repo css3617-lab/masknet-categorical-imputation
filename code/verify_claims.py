@@ -162,6 +162,10 @@ wd = [pts(g[(ds, r, "Noise DNN")] - g[(ds, r, "DAE-complete")]) for ds in ["brfs
 claim("IV-D/Abstract", "weighted NDNN - DAE-c lo", 0.6, min(wd), 1)
 claim("IV-D/Abstract", "weighted NDNN - DAE-c hi", 4.8, max(wd), 1)
 claim("IV-D", "BRFSS range hi", 1.7, max(wd[:3]), 1)
+claim("IV-D", "BRFSS range lo", 0.6, min(wd[:3]), 1)
+claim("IV-D", "Diabetes 10%", 4.8, wd[3], 1)
+claim("IV-D", "DAE-c weight removal gain (pts)", 14.8, pts(mean("DAE-complete-unw") - mean("DAE-complete")), 1)
+claim("IV-D", "both weighted models below mode", True, max(mean("Noise DNN"), mean("DAE-complete")) < mean("Mode"), None)
 claim("IV-D", "Diabetes 50%", 0.6, wd[5], 1)
 ud = [pts(g[(ds, r, "Noise DNN-unw")] - g[(ds, r, "DAE-complete-unw")]) for ds in ["brfss", "diabetes"] for r in [0.1, 0.3, 0.5]]
 claim("IV-D", "unweighted NDNN - DAE-cu lo", 0.3, min(ud), 1)

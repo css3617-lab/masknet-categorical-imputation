@@ -99,6 +99,10 @@ OK   [IV-C] 50% wins/losses: stated (7, 8), data (7, 8)
 OK   [IV-D/Abstract] weighted NDNN - DAE-c lo: stated 0.6, data 0.559
 OK   [IV-D/Abstract] weighted NDNN - DAE-c hi: stated 4.8, data 4.7622
 OK   [IV-D] BRFSS range hi: stated 1.7, data 1.6596
+OK   [IV-D] BRFSS range lo: stated 0.6, data 0.559
+OK   [IV-D] Diabetes 10%: stated 4.8, data 4.7622
+OK   [IV-D] DAE-c weight removal gain (pts): stated 14.8, data 14.7689
+OK   [IV-D] both weighted models below mode: stated True, data True
 OK   [IV-D] Diabetes 50%: stated 0.6, data 0.6147
 OK   [IV-D] unweighted NDNN - DAE-cu lo: stated 0.3, data 0.2893
 OK   [IV-D] unweighted NDNN - DAE-cu hi: stated 2.1, data 2.0563
@@ -204,4 +208,4 @@ OK   [Response] MICE mean diff (pts): stated 0.64, data 0.6402
 OK   [Response] ReMasker mean diff (pts): stated 0.83, data 0.8274
 OK   [IV-B] r_rb >= 0.55 for competitors other than NDNNu/MICE: stated True, data True
 
-205 claims checked, 0 mismatches
+209 claims checked, 0 mismatches
